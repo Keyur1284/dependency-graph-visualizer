@@ -1,0 +1,15 @@
+{
+    "rootModules": [
+        {
+            "name": "src/components"
+        },
+        {
+            "name": "src/core"
+        },
+        {
+            "name": "src/modules"
+        }
+    ],
+    "babelConfigFile": "./babel.config.json",
+    "entry": "src/index.js"
+}

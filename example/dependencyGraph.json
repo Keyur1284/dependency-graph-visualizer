@@ -1,0 +1,1808 @@
+{
+  "nodeToIdMap": {
+    "src/modules/community/pages/Community.js": 1,
+    "src/modules/share/pages/Share.js": 2,
+    "src/modules/scheduler/pages/Scheduler.js": 3,
+    "src/modules/scheduler/components/schedulerComponents.js": 4,
+    "src/modules/scheduler/hooks/useScheduler.js": 5,
+    "src/core/hooks/useShareAccounts.js": 6,
+    "src/core/services/userSerivce.js": 7,
+    "src/components/atoms/index.js": 8,
+    "src/core/constants/shareConstants.js": 9,
+    "src/components/molecules/Reload/Reload.js": 10,
+    "src/components/molecules/Reload/Reload.style.js": 11,
+    "src/components/atoms/Text/index.js": 12,
+    "src/components/atoms/View/index.js": 13,
+    "src/components/atoms/StyleSheet/index.js": 14,
+    "src/components/atoms/View/View.js": 15,
+    "src/components/atoms/Text/Text.js": 16,
+    "src/components/atoms/Text/Text.style.js": 17,
+    "src/modules/share/components/shareComponents.js": 18,
+    "src/modules/share/hooks/useShare.js": 19,
+    "src/core/constants/userConstants.js": 20,
+    "src/components/molecules/Toast/Toast.js": 21,
+    "src/components/molecules/Toast/useToast.js": 22,
+    "src/components/molecules/Toast/Toast.style.js": 23,
+    "src/modules/community/components/communityComponents.js": 24,
+    "src/modules/community/hooks/useCommunity.js": 25,
+    "src/core/hooks/useCurrentUser.js": 26,
+    "src/core/services/shareService.js": 27,
+    "src/components/molecules/EmptyView/index.js": 28,
+    "src/components/organisms/Actions/Actions.js": 29,
+    "src/components/organisms/Actions/ActionItem/index.js": 30,
+    "src/components/organisms/Actions/Actions.style.js": 31,
+    "src/components/organisms/Actions/ActionItem/ActionItem.js": 32,
+    "src/components/organisms/Actions/ActionItem/ActionItem.style.js": 33,
+    "src/components/molecules/EmptyView/EmptyView.js": 34,
+    "src/components/molecules/EmptyView/EmptyView.style.js": 35,
+    "src/modules/community/pages": 36,
+    "src/modules/community": 37,
+    "src/modules": 38,
+    "src/modules/share/pages": 39,
+    "src/modules/share": 40,
+    "src/modules/scheduler/pages": 41,
+    "src/modules/scheduler": 42,
+    "src/modules/scheduler/components": 43,
+    "src/modules/scheduler/hooks": 44,
+    "src/core/hooks": 45,
+    "src/core": 46,
+    "src/core/services": 47,
+    "src/components/atoms": 48,
+    "src/components": 49,
+    "src/core/constants": 50,
+    "src/components/molecules/Reload": 51,
+    "src/components/molecules": 52,
+    "src/components/atoms/Text": 53,
+    "src/components/atoms/View": 54,
+    "src/components/atoms/StyleSheet": 55,
+    "src/modules/share/components": 56,
+    "src/modules/share/hooks": 57,
+    "src/components/molecules/Toast": 58,
+    "src/modules/community/components": 59,
+    "src/modules/community/hooks": 60,
+    "src/components/molecules/EmptyView": 61,
+    "src/components/organisms/Actions": 62,
+    "src/components/organisms": 63,
+    "src/components/organisms/Actions/ActionItem": 64
+  },
+  "nodeToLevelMap": {
+    "1": 3,
+    "2": 3,
+    "3": 3,
+    "4": 3,
+    "5": 3,
+    "6": 2,
+    "7": 2,
+    "8": 2,
+    "9": 2,
+    "10": 3,
+    "11": 3,
+    "12": 3,
+    "13": 3,
+    "14": 3,
+    "15": 3,
+    "16": 3,
+    "17": 3,
+    "18": 3,
+    "19": 3,
+    "20": 2,
+    "21": 3,
+    "22": 3,
+    "23": 3,
+    "24": 3,
+    "25": 3,
+    "26": 2,
+    "27": 2,
+    "28": 3,
+    "29": 3,
+    "30": 4,
+    "31": 3,
+    "32": 4,
+    "33": 4,
+    "34": 3,
+    "35": 3,
+    "36": 2,
+    "37": 1,
+    "38": 0,
+    "39": 2,
+    "40": 1,
+    "41": 2,
+    "42": 1,
+    "43": 2,
+    "44": 2,
+    "45": 1,
+    "46": 0,
+    "47": 1,
+    "48": 1,
+    "49": 0,
+    "50": 1,
+    "51": 2,
+    "52": 1,
+    "53": 2,
+    "54": 2,
+    "55": 2,
+    "56": 2,
+    "57": 2,
+    "58": 2,
+    "59": 2,
+    "60": 2,
+    "61": 2,
+    "62": 2,
+    "63": 1,
+    "64": 3
+  },
+  "nodes": {
+    "1": {
+      "id": 1,
+      "isFile": true,
+      "name": "src/modules/community/pages/Community.js",
+      "dependencies": [
+        24,
+        25
+      ],
+      "levelWiseParents": [
+        36,
+        37,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        24,
+        59,
+        37,
+        38,
+        25,
+        60
+      ]
+    },
+    "2": {
+      "id": 2,
+      "isFile": true,
+      "name": "src/modules/share/pages/Share.js",
+      "dependencies": [
+        18,
+        19
+      ],
+      "levelWiseParents": [
+        39,
+        40,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        18,
+        56,
+        40,
+        38,
+        19,
+        57
+      ]
+    },
+    "3": {
+      "id": 3,
+      "isFile": true,
+      "name": "src/modules/scheduler/pages/Scheduler.js",
+      "dependencies": [
+        4,
+        5
+      ],
+      "levelWiseParents": [
+        41,
+        42,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        4,
+        43,
+        42,
+        38,
+        5,
+        44
+      ]
+    },
+    "4": {
+      "id": 4,
+      "isFile": true,
+      "name": "src/modules/scheduler/components/schedulerComponents.js",
+      "dependencies": [
+        8,
+        9,
+        10
+      ],
+      "levelWiseParents": [
+        43,
+        42,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        9,
+        50,
+        46,
+        10,
+        51,
+        52
+      ]
+    },
+    "5": {
+      "id": 5,
+      "isFile": true,
+      "name": "src/modules/scheduler/hooks/useScheduler.js",
+      "dependencies": [
+        6,
+        7
+      ],
+      "levelWiseParents": [
+        44,
+        42,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        6,
+        45,
+        46,
+        7,
+        47
+      ]
+    },
+    "6": {
+      "id": 6,
+      "isFile": true,
+      "name": "src/core/hooks/useShareAccounts.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        45,
+        46
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/core",
+      "allDependencies": []
+    },
+    "7": {
+      "id": 7,
+      "isFile": true,
+      "name": "src/core/services/userSerivce.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        47,
+        46
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/core",
+      "allDependencies": []
+    },
+    "8": {
+      "id": 8,
+      "isFile": true,
+      "name": "src/components/atoms/index.js",
+      "dependencies": [
+        12,
+        13,
+        14
+      ],
+      "levelWiseParents": [
+        48,
+        49
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        12,
+        53,
+        48,
+        49,
+        13,
+        54,
+        14,
+        55
+      ]
+    },
+    "9": {
+      "id": 9,
+      "isFile": true,
+      "name": "src/core/constants/shareConstants.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        50,
+        46
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/core",
+      "allDependencies": []
+    },
+    "10": {
+      "id": 10,
+      "isFile": true,
+      "name": "src/components/molecules/Reload/Reload.js",
+      "dependencies": [
+        8,
+        11
+      ],
+      "levelWiseParents": [
+        51,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        11,
+        51,
+        52
+      ]
+    },
+    "11": {
+      "id": 11,
+      "isFile": true,
+      "name": "src/components/molecules/Reload/Reload.style.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        51,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": []
+    },
+    "12": {
+      "id": 12,
+      "isFile": true,
+      "name": "src/components/atoms/Text/index.js",
+      "dependencies": [
+        16
+      ],
+      "levelWiseParents": [
+        53,
+        48,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        16,
+        53,
+        48,
+        49
+      ]
+    },
+    "13": {
+      "id": 13,
+      "isFile": true,
+      "name": "src/components/atoms/View/index.js",
+      "dependencies": [
+        15
+      ],
+      "levelWiseParents": [
+        54,
+        48,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        15,
+        54,
+        48,
+        49
+      ]
+    },
+    "14": {
+      "id": 14,
+      "isFile": true,
+      "name": "src/components/atoms/StyleSheet/index.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        55,
+        48,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": []
+    },
+    "15": {
+      "id": 15,
+      "isFile": true,
+      "name": "src/components/atoms/View/View.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        54,
+        48,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": []
+    },
+    "16": {
+      "id": 16,
+      "isFile": true,
+      "name": "src/components/atoms/Text/Text.js",
+      "dependencies": [
+        17
+      ],
+      "levelWiseParents": [
+        53,
+        48,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        17,
+        53,
+        48,
+        49
+      ]
+    },
+    "17": {
+      "id": 17,
+      "isFile": true,
+      "name": "src/components/atoms/Text/Text.style.js",
+      "dependencies": [
+        14
+      ],
+      "levelWiseParents": [
+        53,
+        48,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        14,
+        55,
+        48,
+        49
+      ]
+    },
+    "18": {
+      "id": 18,
+      "isFile": true,
+      "name": "src/modules/share/components/shareComponents.js",
+      "dependencies": [
+        8,
+        20,
+        21
+      ],
+      "levelWiseParents": [
+        56,
+        40,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        20,
+        50,
+        46,
+        21,
+        58,
+        52
+      ]
+    },
+    "19": {
+      "id": 19,
+      "isFile": true,
+      "name": "src/modules/share/hooks/useShare.js",
+      "dependencies": [
+        6,
+        7
+      ],
+      "levelWiseParents": [
+        57,
+        40,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        6,
+        45,
+        46,
+        7,
+        47
+      ]
+    },
+    "20": {
+      "id": 20,
+      "isFile": true,
+      "name": "src/core/constants/userConstants.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        50,
+        46
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/core",
+      "allDependencies": []
+    },
+    "21": {
+      "id": 21,
+      "isFile": true,
+      "name": "src/components/molecules/Toast/Toast.js",
+      "dependencies": [
+        8,
+        22,
+        23
+      ],
+      "levelWiseParents": [
+        58,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        22,
+        58,
+        52,
+        23
+      ]
+    },
+    "22": {
+      "id": 22,
+      "isFile": true,
+      "name": "src/components/molecules/Toast/useToast.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        58,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": []
+    },
+    "23": {
+      "id": 23,
+      "isFile": true,
+      "name": "src/components/molecules/Toast/Toast.style.js",
+      "dependencies": [
+        8
+      ],
+      "levelWiseParents": [
+        58,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49
+      ]
+    },
+    "24": {
+      "id": 24,
+      "isFile": true,
+      "name": "src/modules/community/components/communityComponents.js",
+      "dependencies": [
+        8,
+        20,
+        28,
+        29
+      ],
+      "levelWiseParents": [
+        59,
+        37,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        20,
+        50,
+        46,
+        28,
+        61,
+        52,
+        29,
+        62,
+        63
+      ]
+    },
+    "25": {
+      "id": 25,
+      "isFile": true,
+      "name": "src/modules/community/hooks/useCommunity.js",
+      "dependencies": [
+        26,
+        27
+      ],
+      "levelWiseParents": [
+        60,
+        37,
+        38
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/modules",
+      "allDependencies": [
+        26,
+        45,
+        46,
+        27,
+        47
+      ]
+    },
+    "26": {
+      "id": 26,
+      "isFile": true,
+      "name": "src/core/hooks/useCurrentUser.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        45,
+        46
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/core",
+      "allDependencies": []
+    },
+    "27": {
+      "id": 27,
+      "isFile": true,
+      "name": "src/core/services/shareService.js",
+      "dependencies": [],
+      "levelWiseParents": [
+        47,
+        46
+      ],
+      "children": [],
+      "level": 2,
+      "nearestRootModule": "src/core",
+      "allDependencies": []
+    },
+    "28": {
+      "id": 28,
+      "isFile": true,
+      "name": "src/components/molecules/EmptyView/index.js",
+      "dependencies": [
+        34
+      ],
+      "levelWiseParents": [
+        61,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        34,
+        61,
+        52,
+        49
+      ]
+    },
+    "29": {
+      "id": 29,
+      "isFile": true,
+      "name": "src/components/organisms/Actions/Actions.js",
+      "dependencies": [
+        8,
+        21,
+        30,
+        31
+      ],
+      "levelWiseParents": [
+        62,
+        63,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        21,
+        58,
+        52,
+        30,
+        64,
+        62,
+        63,
+        31
+      ]
+    },
+    "30": {
+      "id": 30,
+      "isFile": true,
+      "name": "src/components/organisms/Actions/ActionItem/index.js",
+      "dependencies": [
+        32
+      ],
+      "levelWiseParents": [
+        64,
+        62,
+        63,
+        49
+      ],
+      "children": [],
+      "level": 4,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        32,
+        64,
+        62,
+        63,
+        49
+      ]
+    },
+    "31": {
+      "id": 31,
+      "isFile": true,
+      "name": "src/components/organisms/Actions/Actions.style.js",
+      "dependencies": [
+        8
+      ],
+      "levelWiseParents": [
+        62,
+        63,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49
+      ]
+    },
+    "32": {
+      "id": 32,
+      "isFile": true,
+      "name": "src/components/organisms/Actions/ActionItem/ActionItem.js",
+      "dependencies": [
+        8,
+        33
+      ],
+      "levelWiseParents": [
+        64,
+        62,
+        63,
+        49
+      ],
+      "children": [],
+      "level": 4,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        33,
+        64,
+        62,
+        63
+      ]
+    },
+    "33": {
+      "id": 33,
+      "isFile": true,
+      "name": "src/components/organisms/Actions/ActionItem/ActionItem.style.js",
+      "dependencies": [
+        8
+      ],
+      "levelWiseParents": [
+        64,
+        62,
+        63,
+        49
+      ],
+      "children": [],
+      "level": 4,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49
+      ]
+    },
+    "34": {
+      "id": 34,
+      "isFile": true,
+      "name": "src/components/molecules/EmptyView/EmptyView.js",
+      "dependencies": [
+        8,
+        35
+      ],
+      "levelWiseParents": [
+        61,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49,
+        35,
+        61,
+        52
+      ]
+    },
+    "35": {
+      "id": 35,
+      "isFile": true,
+      "name": "src/components/molecules/EmptyView/EmptyView.style.js",
+      "dependencies": [
+        8
+      ],
+      "levelWiseParents": [
+        61,
+        52,
+        49
+      ],
+      "children": [],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "allDependencies": [
+        8,
+        48,
+        49
+      ]
+    },
+    "36": {
+      "id": 36,
+      "isFile": false,
+      "name": "src/modules/community/pages",
+      "dependencies": [
+        24,
+        25
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        37,
+        38
+      ],
+      "children": [
+        1
+      ],
+      "allDependencies": [
+        24,
+        59,
+        37,
+        38,
+        25,
+        60
+      ]
+    },
+    "37": {
+      "id": 37,
+      "isFile": false,
+      "name": "src/modules/community",
+      "dependencies": [
+        24,
+        25,
+        8,
+        20,
+        28,
+        29,
+        26,
+        27
+      ],
+      "level": 1,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        38
+      ],
+      "children": [
+        36,
+        59,
+        60
+      ],
+      "allDependencies": [
+        24,
+        59,
+        38,
+        25,
+        60,
+        8,
+        48,
+        49,
+        20,
+        50,
+        46,
+        28,
+        61,
+        52,
+        29,
+        62,
+        63,
+        26,
+        45,
+        27,
+        47
+      ]
+    },
+    "38": {
+      "id": 38,
+      "isFile": false,
+      "name": "src/modules",
+      "dependencies": [
+        24,
+        25,
+        18,
+        19,
+        4,
+        5,
+        8,
+        9,
+        10,
+        6,
+        7,
+        20,
+        21,
+        28,
+        29,
+        26,
+        27
+      ],
+      "level": 0,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [],
+      "children": [
+        37,
+        40,
+        42
+      ],
+      "allDependencies": [
+        24,
+        59,
+        37,
+        25,
+        60,
+        18,
+        56,
+        40,
+        19,
+        57,
+        4,
+        43,
+        42,
+        5,
+        44,
+        8,
+        48,
+        49,
+        9,
+        50,
+        46,
+        10,
+        51,
+        52,
+        6,
+        45,
+        7,
+        47,
+        20,
+        21,
+        58,
+        28,
+        61,
+        29,
+        62,
+        63,
+        26,
+        27
+      ]
+    },
+    "39": {
+      "id": 39,
+      "isFile": false,
+      "name": "src/modules/share/pages",
+      "dependencies": [
+        18,
+        19
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        40,
+        38
+      ],
+      "children": [
+        2
+      ],
+      "allDependencies": [
+        18,
+        56,
+        40,
+        38,
+        19,
+        57
+      ]
+    },
+    "40": {
+      "id": 40,
+      "isFile": false,
+      "name": "src/modules/share",
+      "dependencies": [
+        18,
+        19,
+        8,
+        20,
+        21,
+        6,
+        7
+      ],
+      "level": 1,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        38
+      ],
+      "children": [
+        39,
+        56,
+        57
+      ],
+      "allDependencies": [
+        18,
+        56,
+        38,
+        19,
+        57,
+        8,
+        48,
+        49,
+        20,
+        50,
+        46,
+        21,
+        58,
+        52,
+        6,
+        45,
+        7,
+        47
+      ]
+    },
+    "41": {
+      "id": 41,
+      "isFile": false,
+      "name": "src/modules/scheduler/pages",
+      "dependencies": [
+        4,
+        5
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        42,
+        38
+      ],
+      "children": [
+        3
+      ],
+      "allDependencies": [
+        4,
+        43,
+        42,
+        38,
+        5,
+        44
+      ]
+    },
+    "42": {
+      "id": 42,
+      "isFile": false,
+      "name": "src/modules/scheduler",
+      "dependencies": [
+        4,
+        5,
+        8,
+        9,
+        10,
+        6,
+        7
+      ],
+      "level": 1,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        38
+      ],
+      "children": [
+        41,
+        43,
+        44
+      ],
+      "allDependencies": [
+        4,
+        43,
+        38,
+        5,
+        44,
+        8,
+        48,
+        49,
+        9,
+        50,
+        46,
+        10,
+        51,
+        52,
+        6,
+        45,
+        7,
+        47
+      ]
+    },
+    "43": {
+      "id": 43,
+      "isFile": false,
+      "name": "src/modules/scheduler/components",
+      "dependencies": [
+        8,
+        9,
+        10
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        42,
+        38
+      ],
+      "children": [
+        4
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        9,
+        50,
+        46,
+        10,
+        51,
+        52
+      ]
+    },
+    "44": {
+      "id": 44,
+      "isFile": false,
+      "name": "src/modules/scheduler/hooks",
+      "dependencies": [
+        6,
+        7
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        42,
+        38
+      ],
+      "children": [
+        5
+      ],
+      "allDependencies": [
+        6,
+        45,
+        46,
+        7,
+        47
+      ]
+    },
+    "45": {
+      "id": 45,
+      "isFile": false,
+      "name": "src/core/hooks",
+      "dependencies": [],
+      "level": 1,
+      "nearestRootModule": "src/core",
+      "levelWiseParents": [
+        46
+      ],
+      "children": [
+        6,
+        26
+      ],
+      "allDependencies": []
+    },
+    "46": {
+      "id": 46,
+      "isFile": false,
+      "name": "src/core",
+      "dependencies": [],
+      "level": 0,
+      "nearestRootModule": "src/core",
+      "levelWiseParents": [],
+      "children": [
+        45,
+        47,
+        50
+      ],
+      "allDependencies": []
+    },
+    "47": {
+      "id": 47,
+      "isFile": false,
+      "name": "src/core/services",
+      "dependencies": [],
+      "level": 1,
+      "nearestRootModule": "src/core",
+      "levelWiseParents": [
+        46
+      ],
+      "children": [
+        7,
+        27
+      ],
+      "allDependencies": []
+    },
+    "48": {
+      "id": 48,
+      "isFile": false,
+      "name": "src/components/atoms",
+      "dependencies": [
+        12,
+        13,
+        14,
+        16,
+        15,
+        17
+      ],
+      "level": 1,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        49
+      ],
+      "children": [
+        8,
+        53,
+        54,
+        55
+      ],
+      "allDependencies": [
+        12,
+        53,
+        49,
+        13,
+        54,
+        14,
+        55,
+        16,
+        15,
+        17
+      ]
+    },
+    "49": {
+      "id": 49,
+      "isFile": false,
+      "name": "src/components",
+      "dependencies": [
+        12,
+        13,
+        14,
+        8,
+        11,
+        16,
+        15,
+        17,
+        22,
+        23,
+        34,
+        21,
+        30,
+        31,
+        32,
+        33,
+        35
+      ],
+      "level": 0,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [],
+      "children": [
+        48,
+        52,
+        63
+      ],
+      "allDependencies": [
+        12,
+        53,
+        48,
+        13,
+        54,
+        14,
+        55,
+        8,
+        11,
+        51,
+        52,
+        16,
+        15,
+        17,
+        22,
+        58,
+        23,
+        34,
+        61,
+        21,
+        30,
+        64,
+        62,
+        63,
+        31,
+        32,
+        33,
+        35
+      ]
+    },
+    "50": {
+      "id": 50,
+      "isFile": false,
+      "name": "src/core/constants",
+      "dependencies": [],
+      "level": 1,
+      "nearestRootModule": "src/core",
+      "levelWiseParents": [
+        46
+      ],
+      "children": [
+        9,
+        20
+      ],
+      "allDependencies": []
+    },
+    "51": {
+      "id": 51,
+      "isFile": false,
+      "name": "src/components/molecules/Reload",
+      "dependencies": [
+        8,
+        11
+      ],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        52,
+        49
+      ],
+      "children": [
+        10,
+        11
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        11,
+        52
+      ]
+    },
+    "52": {
+      "id": 52,
+      "isFile": false,
+      "name": "src/components/molecules",
+      "dependencies": [
+        8,
+        11,
+        22,
+        23,
+        34,
+        35
+      ],
+      "level": 1,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        49
+      ],
+      "children": [
+        51,
+        58,
+        61
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        11,
+        51,
+        22,
+        58,
+        23,
+        34,
+        61,
+        35
+      ]
+    },
+    "53": {
+      "id": 53,
+      "isFile": false,
+      "name": "src/components/atoms/Text",
+      "dependencies": [
+        16,
+        17,
+        14
+      ],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        48,
+        49
+      ],
+      "children": [
+        12,
+        16,
+        17
+      ],
+      "allDependencies": [
+        16,
+        48,
+        49,
+        17,
+        14,
+        55
+      ]
+    },
+    "54": {
+      "id": 54,
+      "isFile": false,
+      "name": "src/components/atoms/View",
+      "dependencies": [
+        15
+      ],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        48,
+        49
+      ],
+      "children": [
+        13,
+        15
+      ],
+      "allDependencies": [
+        15,
+        48,
+        49
+      ]
+    },
+    "55": {
+      "id": 55,
+      "isFile": false,
+      "name": "src/components/atoms/StyleSheet",
+      "dependencies": [],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        48,
+        49
+      ],
+      "children": [
+        14
+      ],
+      "allDependencies": []
+    },
+    "56": {
+      "id": 56,
+      "isFile": false,
+      "name": "src/modules/share/components",
+      "dependencies": [
+        8,
+        20,
+        21
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        40,
+        38
+      ],
+      "children": [
+        18
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        20,
+        50,
+        46,
+        21,
+        58,
+        52
+      ]
+    },
+    "57": {
+      "id": 57,
+      "isFile": false,
+      "name": "src/modules/share/hooks",
+      "dependencies": [
+        6,
+        7
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        40,
+        38
+      ],
+      "children": [
+        19
+      ],
+      "allDependencies": [
+        6,
+        45,
+        46,
+        7,
+        47
+      ]
+    },
+    "58": {
+      "id": 58,
+      "isFile": false,
+      "name": "src/components/molecules/Toast",
+      "dependencies": [
+        8,
+        22,
+        23
+      ],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        52,
+        49
+      ],
+      "children": [
+        21,
+        22,
+        23
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        22,
+        52,
+        23
+      ]
+    },
+    "59": {
+      "id": 59,
+      "isFile": false,
+      "name": "src/modules/community/components",
+      "dependencies": [
+        8,
+        20,
+        28,
+        29
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        37,
+        38
+      ],
+      "children": [
+        24
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        20,
+        50,
+        46,
+        28,
+        61,
+        52,
+        29,
+        62,
+        63
+      ]
+    },
+    "60": {
+      "id": 60,
+      "isFile": false,
+      "name": "src/modules/community/hooks",
+      "dependencies": [
+        26,
+        27
+      ],
+      "level": 2,
+      "nearestRootModule": "src/modules",
+      "levelWiseParents": [
+        37,
+        38
+      ],
+      "children": [
+        25
+      ],
+      "allDependencies": [
+        26,
+        45,
+        46,
+        27,
+        47
+      ]
+    },
+    "61": {
+      "id": 61,
+      "isFile": false,
+      "name": "src/components/molecules/EmptyView",
+      "dependencies": [
+        34,
+        8,
+        35
+      ],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        52,
+        49
+      ],
+      "children": [
+        28,
+        34,
+        35
+      ],
+      "allDependencies": [
+        34,
+        52,
+        49,
+        8,
+        48,
+        35
+      ]
+    },
+    "62": {
+      "id": 62,
+      "isFile": false,
+      "name": "src/components/organisms/Actions",
+      "dependencies": [
+        8,
+        21,
+        30,
+        31,
+        32,
+        33
+      ],
+      "level": 2,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        63,
+        49
+      ],
+      "children": [
+        29,
+        64,
+        31
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        21,
+        58,
+        52,
+        30,
+        64,
+        63,
+        31,
+        32,
+        33
+      ]
+    },
+    "63": {
+      "id": 63,
+      "isFile": false,
+      "name": "src/components/organisms",
+      "dependencies": [
+        8,
+        21,
+        30,
+        31,
+        32,
+        33
+      ],
+      "level": 1,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        49
+      ],
+      "children": [
+        62
+      ],
+      "allDependencies": [
+        8,
+        48,
+        49,
+        21,
+        58,
+        52,
+        30,
+        64,
+        62,
+        31,
+        32,
+        33
+      ]
+    },
+    "64": {
+      "id": 64,
+      "isFile": false,
+      "name": "src/components/organisms/Actions/ActionItem",
+      "dependencies": [
+        32,
+        8,
+        33
+      ],
+      "level": 3,
+      "nearestRootModule": "src/components",
+      "levelWiseParents": [
+        62,
+        63,
+        49
+      ],
+      "children": [
+        30,
+        32,
+        33
+      ],
+      "allDependencies": [
+        32,
+        62,
+        63,
+        49,
+        8,
+        48,
+        33
+      ]
+    }
+  }
+}

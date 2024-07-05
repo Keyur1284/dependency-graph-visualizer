@@ -1,0 +1,13 @@
+.subNav {
+    text-decoration: none; 
+    font-size: 23px; 
+    transition: text-decoration 0.3s, font-size 0.3s; 
+  }
+
+.subNav:hover {
+    font-size: 27px; 
+  } 
+
+.subNav.active {
+    text-decoration: underline;
+}

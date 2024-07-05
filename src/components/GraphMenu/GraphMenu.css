@@ -1,0 +1,120 @@
+.hamburger-menu {
+  position: fixed;
+  top: 60px;
+  right: 5px;
+  width: 400px;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  flex-direction: column;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.menu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.menu-content {
+  display: flex;
+  flex-direction: column;
+  height: 72.3vh;
+  max-height: 78.5vh;
+  overflow-y: auto;
+  overflow-x: auto;
+}
+
+.node-item {
+  margin-bottom: 10px;
+}
+
+.submit-button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+.checkbox {
+  margin: 8px;
+  cursor: pointer;
+}
+
+.checkbox-container {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+}
+
+.checkbox-container:hover {
+  background-color: #f2f2f2;
+}
+
+.close-button {
+  background-color: #f2f2f2;
+  padding-top: 4px;
+  margin-bottom: 10px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #dcdcdc;
+}
+
+.checkbox-container input[type='checkbox'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  min-width: 16px;
+  height: 16px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-right: 10px;
+  cursor: pointer;
+  position: relative;
+}
+
+.checkbox-container input[type='checkbox']:checked {
+  background-color: white;
+}
+
+.checkbox-container input[type='checkbox']:checked::before {
+  content: '✔';
+  color: black;
+  font-size: 12px;
+  position: absolute;
+  top: 0;
+  left: 2px;
+}
+
+.menu-button {
+  cursor: pointer;
+  position: fixed;
+  top: 64px;
+  right: 5px;
+  background-color: #f2f2f2;
+  padding: 3px 6px;
+  padding-bottom: 0px;
+  border: 1px solid #333;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.menu-button:hover {
+  background-color: #dcdcdc;
+}

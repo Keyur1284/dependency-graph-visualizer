@@ -1,0 +1,60 @@
+{
+    "name": "dependency-graph-visualizer",
+    "version": "1.0.0",
+    "description": "",
+    "main": "bundler/index.js",
+    "scripts": {
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "eject": "react-scripts eject",
+        "lint": "eslint src"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/cli": "^7.24.7",
+        "@babel/core": "^7.24.7",
+        "@babel/node": "^7.24.7",
+        "@babel/plugin-transform-modules-commonjs": "^7.24.7",
+        "@babel/preset-typescript": "^7.24.6",
+        "@babel/register": "^7.24.6",
+        "@babel/traverse": "^7.24.6",
+        "@viz-js/viz": "^3.6.0",
+        "babel-plugin-add-module-exports": "^1.0.4",
+        "babel-plugin-module-resolver": "^5.0.2",
+        "babel-plugin-transform-imports": "^2.0.0",
+        "lodash": "^4.17.21",
+        "prop-types": "^15.8.1",
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-scripts": "5.0.1",
+        "ts-graphviz": "^2.1.2"
+    },
+    "devDependencies": {
+        "@babel/eslint-parser": "^7.24.7",
+        "@babel/preset-env": "^7.24.7",
+        "@babel/preset-react": "^7.24.7",
+        "@eslint/js": "^9.5.0",
+        "eslint": "^8.57.0",
+        "eslint-config-airbnb": "^19.0.4",
+        "eslint-config-prettier": "^9.1.0",
+        "eslint-plugin-import": "^2.29.1",
+        "eslint-plugin-react": "^7.34.2",
+        "globals": "^15.4.0",
+        "prettier": "^3.3.2"
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    }
+}

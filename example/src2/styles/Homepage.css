@@ -1,0 +1,55 @@
+.carousel-item {
+  
+  height: 90vh;
+  min-height: 300px;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  top: 100px;
+}
+
+.carousel-inner{
+  font-size: 1.5rem;  
+}
+
+.si-img{
+  text-align: center;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  transition: transform 0.5s;
+}
+
+.si-img:hover{
+  transform: scale(1.1);
+}
+
+.finance{
+    background-image: url('../assets/dashboard-img/p_5.jpg');
+    height: 500px;
+    width: 400px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.it{
+  background-image: url('../assets/dashboard-img/p_6.jpg');
+  height: 500px;
+  width: 400px;
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+.start-up{
+  background-image: url('../assets/dashboard-img/p_7.jpg');
+    height: 500px;
+    width: 400px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

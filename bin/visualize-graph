@@ -1,0 +1,17 @@
+#!/usr/bin/env node
+
+const { resolve } = require('path');
+const { spawn } = require('child_process');
+
+import('../bundler/index.js').then(() => {
+    const child = spawn('npm', ['run', 'start'], { cwd: resolve(__dirname, '../'), stdio: 'inherit' });
+
+    child.on('close', (code) => {
+        if (code !== 0) {
+            console.error(`npm run start process exited with code ${code}`);
+        }
+    });
+}).catch((err) => {
+    console.error(err);
+    process.exit(1);
+});

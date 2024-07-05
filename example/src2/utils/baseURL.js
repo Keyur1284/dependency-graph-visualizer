@@ -1,0 +1,1 @@
+export const baseURL = "https://xpensetracker.up.railway.app/api";
